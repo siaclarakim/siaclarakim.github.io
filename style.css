@@ -1,0 +1,43 @@
+/*전체 body 스타일*/
+body{
+  font-family: "Noto Sans KR", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0;
+  padding:0;
+  background-color: rgb(156, 228, 211);
+}
+/*헤더 스타일*/
+header{
+  background-color: rgb(218, 167, 215);
+  color:black;
+  text-align:center;
+  padding: 30px 170px;
+}
+/*섹션 제목 스타일*/
+section h2{
+  color: black;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 5px;
+}
+/*프로젝트 리스트 스타일*/
+ol li{
+  margin-bottom: 15px;
+}
+/*꼬리말 고정 스타일*/
+footer{
+  position:fixed;
+  bottom:0;
+  width:100%;
+  background-color: #f2f2f2;
+  text-align: center;
+  padding:8px;
+  border-top: 1px solid #ccc;
+  font-size: 13px;
+}
+/*꼬리말로 본문 내용이 가려지지 않게 여백 주기*/
+main{
+  padding-bottom: 80px;
+}
